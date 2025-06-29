@@ -12,17 +12,18 @@
     animation-timing-function: linear;
     animation-duration: 5s; */
 
-    animation: 5s linear 0s infinite running myColorChange;
-   
+    /* animation: 5s linear 0s infinite running myColorChange; */
     
 }
-#box1:hover{
-    /* animation: 3s linear 0s infinite running myslide; */
+
+
+/* #box1:hover{
+     animation: 3s linear 0s infinite running myslide; 
 }
 
 #box1:active{
-     /* animation: 5s linear 0s infinite running myslide;  */
-}
+     animation: 5s linear 0s infinite running myslide;  
+} */
 
 @keyframes myslide{
     from{margin-left: 0%;}
