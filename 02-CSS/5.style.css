@@ -1,0 +1,50 @@
+.fa-youtube{
+    color: red;
+}
+#box{
+    margin-top: 150px;
+    margin-left: 150px;
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background-color: grey;
+
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px,50px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2,2);
+    transition: transform 0.5s ease;
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(20deg,20deg);
+
+    transform: matrix(1,0,0,1,0,0);
+
+    /* 
+    
+
+    matrix combines the following:
+    
+    scaleX(),
+    skewY(),
+    skewY(),
+    scaleY(),
+    translateX(),
+    translateY()
+    
+    
+    */
+
+
+
+    
+    
+}
+
+  
